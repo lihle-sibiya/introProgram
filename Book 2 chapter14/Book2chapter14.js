@@ -58,7 +58,7 @@ function calculateDelivery(orderPrice, deliveryCity, birthday) {
     let deliveryPrice = 0;
 
     // calculate delivery price, if there is one
-    if (((deliveryCity === "Anytown") && (orderPrice > 10)) || (birthday === "yes")) {
+    if (((deliveryCity === "Othertown") && (orderPrice > 100)) || (birthday === "yes")) {
         deliveryPrice = 0;
     } else {
         deliveryPrice = 5;
