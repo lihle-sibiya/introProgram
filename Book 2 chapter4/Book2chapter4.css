@@ -7,12 +7,12 @@
 }
 
 .bubble {
-    border: 3px dashed Fuchsia;
+    border: 3px solid #FFFFFF;
     display: block;
     position: absolute;
+    border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
-    border-radius: 20px;
 }
 
 body {
